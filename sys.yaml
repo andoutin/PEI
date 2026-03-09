@@ -1,5 +1,5 @@
 payload:
-  # === 局域网与管理地址 (LAN & Router) ===
+  # === 1. 局域网与标准私有网段 (基础连接) ===
   - '0.0.0.0/8'
   - '10.0.0.0/8'
   - '100.64.0.0/10'
@@ -9,58 +9,92 @@ payload:
   - '192.0.0.0/24'
   - '192.168.0.0/16'
   - '198.18.0.0/15'
+  - '198.51.100.0/24'
+  - '203.0.113.0/24'
+  - '192.88.99.0/24'
   - '224.0.0.0/3'
   - '::/127'
   - 'fc00::/7'
   - 'fe80::/10'
   - 'ff00::/8'
   - '+.home'
+  - '+.home.arpa'
   - '+.lan'
   - '+.local'
   - '+.localhost'
   - '+.localdomain'
-  - '+.miwifi.com'        # 小米路由器后台
-  - '+.router.asus.com'
-  - '+.tplinkwifi.net'
-  - '+.peiluyou.com'
-  - '+.phicomm.me'
-  - '+.plex.direct'       # NAS Plex 内网穿透
+  - '+.internal'
+  - '+.invalid'
+  - '+.test'
+  - '+.example'
 
-  # === 苹果服务补全 (Apple Services) ===
+  # === 2. 硬件与组网 (Tailscale & 小米直连) ===
+  - '+.miwifi.com'
+  - '+.ts.net'             # Tailscale 节点
+  - '+.tailscale.com'      # Tailscale 管理
+  - '+.plex.direct'
+
+  # === 3. 微软全家桶深度补全 (重点强化 MS/1dr) ===
+  - '+.microsoft.com'
+  - '+.microsoftonline.com'
+  - '+.microsoftonline.cn'
+  - '+.msauth.net'         # 核心登录验证
+  - '+.msauth.cn'
+  - '+.msftauth.net'
+  - '+.msftconnecttest.com' # 系统联网检查
+  - '+.msftauthimages.net'  # 登录验证背景/图片
+  - '+.msn.com'            # 系统内置服务
+  - '+.msn.cn'
+  - '+.msedge.net'         # Edge 服务
+  - '+.live.com'           # 核心账户流
+  - '+.live.net'
+  - '+.outlook.com'
+  - '+.office.com'
+  - '+.office.net'
+  - '+.office365.com'
+  - '+.office365.cn'
+  - '+.onedrive.com'       # OneDrive
+  - '+.1drv.ms'            # 1dr 短链
+  - '+.storage.live.com'   # 1dr 实际存储
+  - '+.sharepoint.com'     # 1dr 商业/教育版
+  - '+.skype.com'
+  - '+.sfx.ms'             # 微软静态资源 (Static)
+  - '+.gfx.ms'             # 微软图形资源
+  - '+.windows.com'
+  - '+.windows.net'        # 微软云服务底层
+  - '+.windowsupdate.com'
+  - '+.update.microsoft.com'
+  - '+.azure.com'
+  - '+.azure.cn'
+  - '+.azureedge.net'      # 微软 CDN 加速
+  - '+.aspnetcdn.com'      # 微软公共资源 CDN
+  - '+.microsoft-tst.com'
+  - '+.chinacloudapi.cn'
+
+  # === 4. 苹果生态 (10 万张照片备份核心) ===
   - '+.apple.com'
   - '+.apple.cn'
-  - '+.apple.co'          # 补全短域名
+  - '+.apple.com.cn'
+  - '+.apple.co'
   - '+.icloud.com'
-  - '+.icloud.com.cn'     # 云上贵州
-  - '+.itunes.com'
+  - '+.icloud.com.cn'      # 云上贵州
+  - '+.icloud-content.com'
   - '+.me.com'
-  - '+.mzstatic.com'
   - '+.aaplimg.com'
   - '+.apple-mapkit.com'
   - '+.apple-mapkit.cn'
   - '+.cdn-apple.com'
-  - '+.push.apple.com'    # 关键：确保推送及时
+  - '+.itunes.com'
+  - '+.itunes.apple.com'
+  - '+.mzstatic.com'
+  - '+.push.apple.com'
+  - '+.swcdn.apple.com'
+  - '+.swscan.apple.com'
+  - '+.mesu.apple.com'
+  - '+.ocsp.apple.com'
+  - '+.certs.apple.com'
 
-  # === 微软服务补全 (Microsoft & Office) ===
-  - '+.microsoft.com'
-  - '+.microsoftonline.com'
-  - '+.microsoftonline.cn'
-  - '+.msauth.net'        # 关键：补全微软两步验证/登录认证
-  - '+.msauth.cn'
-  - '+.msftauth.net'
-  - '+.msn.com'           # 补全微软基础服务
-  - '+.live.com'          # 补全 Outlook/OneDrive 登录
-  - '+.office.com'
-  - '+.office365.com'
-  - '+.office.net'
-  - '+.onedrive.com'
-  - '+.sharepoint.com'    # 补全 Office 协作
-  - '+.azure.cn'
-  - '+.azure.com'
-  - '+.windows.com'
-  - '+.windowsupdate.com'
-
-  # === 其他常用直连 (Tools & Dashboard) ===
+  # === 5. 网络工具 ===
   - 'clash.razord.top'
   - 'yacd.haishan.me'
-  - '+.ts.net'            # Tailscale 组网
+  - '+.speedtest.net'
