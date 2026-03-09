@@ -36,6 +36,7 @@ payload:
 
   # === 3. 微软全家桶深度补全 (重点强化 MS/1dr) ===
   - '+.microsoft.com'
+  - '+.bing.com'
   - '+.microsoftonline.com'
   - '+.microsoftonline.cn'
   - '+.msauth.net'         # 核心登录验证
