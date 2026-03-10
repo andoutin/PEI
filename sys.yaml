@@ -82,6 +82,8 @@ payload:
   - '+.test'
   - '+.ts.net'
   - '+.yacd.haishan.me'
+  - '+.zaobao.com'
+  - '+.dapanyuntu.com'  
 
   # === 4. 局域网与标准私有网段 (IP 类 - 放在最底部) ===
   - '0.0.0.0/8'
