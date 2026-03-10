@@ -1,1 +1,17 @@
+payload:
 
+  - '+.google.com'
+  - '+.google.cn'
+  - '+.googleapis.com'
+  - '+.googleapis.cn'
+  - '+.gstatic.com'
+  - '+.youtube.com'
+  - '+.youtu.be'
+  - '+.ytimg.com'
+  - '+.youtube-nocookie.com'
+  - '+.youtubei.googleapis.com'
+  - '+.yt.be'
+  - '+.youtubeeducation.com'
+  - '+.youtubekids.com'
+  - '+.ytimg.l.google.com'
+  - '+.wide-youtube.l.google.com'
