@@ -1,5 +1,89 @@
 payload:
-  # === 1. 局域网与标准私有网段 (基础连接) ===
+
+  # === 1. 微软全家桶 (A-Z 排序) ===
+  - '+.1drv.ms'
+  - '+.aadcdn.microsoftonline-p.com'
+  - '+.aka.ms'
+  - '+.aspnetcdn.com'
+  - '+.azure.cn'
+  - '+.azure.com'
+  - '+.azureedge.net'
+  - '+.bing.com'
+  - '+.chinacloudapi.cn'
+  - '+.gfx.ms'
+  - '+.graph.microsoft.us'
+  - '+.graph.windows.net'
+  - '+.live.com'
+  - '+.live.net'
+  - '+.microsoft-tst.com'
+  - '+.microsoft.com'
+  - '+.microsoftonline.cn'
+  - '+.microsoftonline.com'
+  - '+.msauth.cn'
+  - '+.msauth.net'
+  - '+.msedge.net'
+  - '+.msftauth.net'
+  - '+.msftauthimages.net'
+  - '+.msftconnecttest.com'
+  - '+.msftncsi.com'
+  - '+.msn.cn'
+  - '+.msn.com'
+  - '+.office.com'
+  - '+.office.net'
+  - '+.office365.cn'
+  - '+.office365.com'
+  - '+.onedrive.com'
+  - '+.outlook.com'
+  - '+.powershellgallery.com'
+  - '+.sfx.ms'
+  - '+.sharepoint.com'
+  - '+.skype.com'
+  - '+.visualstudio.com'
+  - '+.windows.com'
+  - '+.windows.net'
+  - '+.windowsupdate.com'
+
+  # === 2. 苹果生态 (A-Z 排序) ===
+  - '+.aaplimg.com'
+  - '+.apple'
+  - '+.apple-dns.net'
+  - '+.apple-mapkit.cn'
+  - '+.apple-mapkit.com'
+  - '+.apple.cn'
+  - '+.apple.co'
+  - '+.apple.com'
+  - '+.apple.com.cn'
+  - '+.apple.news'
+  - '+.appstore.com'
+  - '+.cdn-apple.com'
+  - '+.digicert.com'
+  - '+.entrust.net'
+  - '+.icloud-content.com'
+  - '+.icloud.com'
+  - '+.icloud.com.cn'
+  - '+.itunes.com'
+  - '+.me.com'
+  - '+.mzstatic.com'
+
+  # === 3. 其他常用服务与后缀 (域名类，A-Z 排序) ===
+  - '+.clash.razord.top'
+  - '+.example'
+  - '+.home'
+  - '+.home.arpa'
+  - '+.internal'
+  - '+.invalid'
+  - '+.lan'
+  - '+.local'
+  - '+.localdomain'
+  - '+.localhost'
+  - '+.miwifi.com'
+  - '+.plex.direct'
+  - '+.tailscale.com'
+  - '+.test'
+  - '+.ts.net'
+  - '+.yacd.haishan.me'
+
+  # === 4. 局域网与标准私有网段 (IP 类 - 放在最底部) ===
   - '0.0.0.0/8'
   - '10.0.0.0/8'
   - '100.64.0.0/10'
@@ -8,94 +92,13 @@ payload:
   - '172.16.0.0/12'
   - '192.0.0.0/24'
   - '192.168.0.0/16'
+  - '192.88.99.0/24'
   - '198.18.0.0/15'
   - '198.51.100.0/24'
   - '203.0.113.0/24'
-  - '192.88.99.0/24'
   - '224.0.0.0/3'
   - '::/127'
+  - '::1/128'
   - 'fc00::/7'
   - 'fe80::/10'
   - 'ff00::/8'
-  - '+.home'
-  - '+.home.arpa'
-  - '+.lan'
-  - '+.local'
-  - '+.localhost'
-  - '+.localdomain'
-  - '+.internal'
-  - '+.invalid'
-  - '+.test'
-  - '+.example'
-
-  # === 2. 硬件与组网 (Tailscale & 小米直连) ===
-  - '+.miwifi.com'
-  - '+.ts.net'             # Tailscale 节点
-  - '+.tailscale.com'      # Tailscale 管理
-  - '+.plex.direct'
-
-  # === 3. 微软全家桶深度补全 (重点强化 MS/1dr) ===
-  - '+.microsoft.com'
-  - '+.bing.com'
-  - '+.microsoftonline.com'
-  - '+.microsoftonline.cn'
-  - '+.msauth.net'         # 核心登录验证
-  - '+.msauth.cn'
-  - '+.msftauth.net'
-  - '+.msftconnecttest.com' # 系统联网检查
-  - '+.msftauthimages.net'  # 登录验证背景/图片
-  - '+.msn.com'            # 系统内置服务
-  - '+.msn.cn'
-  - '+.msedge.net'         # Edge 服务
-  - '+.live.com'           # 核心账户流
-  - '+.live.net'
-  - '+.outlook.com'
-  - '+.office.com'
-  - '+.office.net'
-  - '+.office365.com'
-  - '+.office365.cn'
-  - '+.onedrive.com'       # OneDrive
-  - '+.1drv.ms'            # 1dr 短链
-  - '+.storage.live.com'   # 1dr 实际存储
-  - '+.sharepoint.com'     # 1dr 商业/教育版
-  - '+.skype.com'
-  - '+.sfx.ms'             # 微软静态资源 (Static)
-  - '+.gfx.ms'             # 微软图形资源
-  - '+.windows.com'
-  - '+.windows.net'        # 微软云服务底层
-  - '+.windowsupdate.com'
-  - '+.update.microsoft.com'
-  - '+.azure.com'
-  - '+.azure.cn'
-  - '+.azureedge.net'      # 微软 CDN 加速
-  - '+.aspnetcdn.com'      # 微软公共资源 CDN
-  - '+.microsoft-tst.com'
-  - '+.chinacloudapi.cn'
-
-  # === 4. 苹果生态 (10 万张照片备份核心) ===
-  - '+.apple.com'
-  - '+.apple.cn'
-  - '+.apple.com.cn'
-  - '+.apple.co'
-  - '+.icloud.com'
-  - '+.icloud.com.cn'      # 云上贵州
-  - '+.icloud-content.com'
-  - '+.me.com'
-  - '+.aaplimg.com'
-  - '+.apple-mapkit.com'
-  - '+.apple-mapkit.cn'
-  - '+.cdn-apple.com'
-  - '+.itunes.com'
-  - '+.itunes.apple.com'
-  - '+.mzstatic.com'
-  - '+.push.apple.com'
-  - '+.swcdn.apple.com'
-  - '+.swscan.apple.com'
-  - '+.mesu.apple.com'
-  - '+.ocsp.apple.com'
-  - '+.certs.apple.com'
-
-  # === 5. 网络工具 ===
-  - 'clash.razord.top'
-  - 'yacd.haishan.me'
-  - '+.speedtest.net'
