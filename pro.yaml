@@ -1,17 +1,42 @@
 payload:
-
+  # === 1. Google 核心 & 系统底层 (解决登录、同步、账户验证) ===
   - '+.google.com'
-  - '+.google.cn'
   - '+.googleapis.com'
-  - '+.googleapis.cn'
   - '+.gstatic.com'
+  - '+.googleusercontent.com'
+  - '+.ggpht.com'           # 必加：头像、Play 商店图标
+  - '+.android.com'         # 安卓系统更新检测
+  - '+.googlezip.net'       # 谷歌浏览器流量节省/压缩
+  - '+.pki.goog'            # 证书校验（不通会导致连接安全错误）
+  - '+.xn--ngstr-lra8j.com' # 谷歌内部跳转
+
+  # === 2. Google Play 商店加速 (解决“下载中”卡 99%) ===
+  - '+.gvt1.com'            # 核心下载域名 1
+  - '+.gvt2.com'            # 核心下载域名 2
+  - '+.gvt3.com'
+  - '+.googletagmanager.com' # 商店加载统计
+
+  # === 3. YouTube 深度支持 (视频、直播、YouTube Music) ===
   - '+.youtube.com'
-  - '+.youtu.be'
-  - '+.ytimg.com'
-  - '+.youtube-nocookie.com'
-  - '+.youtubei.googleapis.com'
+  - '+.googlevideo.com'     # 视频数据流（核心）
+  - '+.ytimg.com'           # 视频预览图
+  - '+.youtu.be'            # 视频分享短链
   - '+.yt.be'
   - '+.youtubeeducation.com'
-  - '+.youtubekids.com'
-  - '+.ytimg.l.google.com'
-  - '+.wide-youtube.l.google.com'
+  - '+.youtube-nocookie.com'
+  - '+.nhacanh247.com'      # 偶尔用于 YouTube 某些地区的内容分发
+  - '+.googlevideo.cn'      # 部分历史遗留的国内视频节点
+
+  # === 4. 中国区优化 (CN 域名 - 建议在 Rules 中设为 DIRECT 直连) ===
+  - '+.google.cn'           # 翻译、地图主域名
+  - '+.google.com.cn'
+  - '+.googleapis.cn'       # 关键：国内 API 镜像
+  - '+.gstatic.cn'          # 国内静态资源镜像
+  - '+.recaptcha.net'       # 验证码，直连加载最快
+
+  # === 5. 后台推送与辅助工具 (Firebase/Chrome) ===
+  - '+.firebaseio.com'      # 很多 App 的消息推送依赖此项
+  - '+.googleapis-cn.com'   # 国内部分 App 调用的 API
+  - '+.chrome.com'          # 浏览器同步
+  - '+.doubleclick.net'     # 广告/分析（部分 App 启动必备项）
+  - '+.crashlytics.com'     # 崩溃报告
