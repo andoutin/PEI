@@ -8,7 +8,7 @@ payload:
   - "+.azure.com"
   - "+.azureedge.net"
   - "+.bing.com"
-  - "+.bing.com"
+  - "+.bing.net"
   - "+.chinacloudapi.cn"
   - "+.gfx.ms"
   - "+.graph.microsoft.us"
