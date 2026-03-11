@@ -40,3 +40,8 @@ payload:
   - '+.chrome.com'          # 浏览器同步
   - '+.doubleclick.net'     # 广告/分析（部分 App 启动必备项）
   - '+.crashlytics.com'     # 崩溃报告
+  - '+.vivaldi.com'
+  - '+.vivaldi.net'    
+  - '+.github.com'
+  - '+.githubassets.com'
+  - '+.githubusercontent.com'
