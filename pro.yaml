@@ -15,6 +15,7 @@ payload:
   - '+.gvt2.com'            # 核心下载域名 2
   - '+.gvt3.com'
   - '+.googletagmanager.com' # 商店加载统计
+  - '+.google-analytics.com' # 商店加载统计
 
   # === 3. YouTube 深度支持 (视频、直播、YouTube Music) ===
   - '+.youtube.com'
