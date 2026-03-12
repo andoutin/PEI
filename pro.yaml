@@ -9,6 +9,8 @@ payload:
   - '+.googlezip.net'       # 谷歌浏览器流量节省/压缩
   - '+.pki.goog'            # 证书校验（不通会导致连接安全错误）
   - '+.xn--ngstr-lra8j.com' # 谷歌内部跳转
+  - '+. dns.google'
+ 
 
   # === 2. Google Play 商店加速 (解决“下载中”卡 99%) ===
   - '+.gvt1.com'            # 核心下载域名 1
