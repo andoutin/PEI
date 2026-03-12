@@ -1,40 +1,64 @@
 payload:
-  # === 1. 微软全家桶 (已去重) ===
-  - "+.1drv.ms"
-  - "+.aadcdn.microsoftonline-p.com"
-  - "+.aka.ms"
-  - "+.aspnetcdn.com"
-  - "+.azure.cn"
-  - "+.azure.com"
-  - "+.azureedge.net"
-  - "+.bing.com"
-  - "+.bing.net"
-  - "+.chinacloudapi.cn"
-  - "+.gfx.ms"
-  - "+.graph.microsoft.us"
-  - "+.graph.windows.net"
-  - "+.live.com"
-  - "+.live.net"
-  - "+.microsoft-tst.com"
-  - "+.microsoft.com"
-  - "+.microsoftonline.cn"
-  - "+.microsoftonline.com"
-  - "+.msauth.cn"
-  - "+.msauth.net"
-  - "+.msedge.net"
-  - "+.msftauth.net"
-  - "+.msftauthimages.net"
-  - "+.msftconnecttest.com"
-  - "+.msftncsi.com"
-  - "+.msn.cn"
-  - "+.msn.com"
-  - "+.office.com"
-  - "+.office.net"
-  - "+.office365.cn"
-  - "+.office365.com"
-  - "+.onedrive.com"
-  - "+.outlook.com"
-  - "+.powershellgallery.com"
+  # === 1. 微软全家桶（保持精确后缀 + 少量关键词覆盖） ===
+  - DOMAIN-SUFFIX,1drv.ms
+  - DOMAIN-SUFFIX,aadcdn.microsoftonline-p.com
+  - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,aspnetcdn.com
+  - DOMAIN-SUFFIX,azure.cn
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,mm.bing.net
+  - DOMAIN-SUFFIX,tc.mm.bing.net
+  - DOMAIN-SUFFIX,chinacloudapi.cn
+  - DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,graph.microsoft.us
+  - DOMAIN-SUFFIX,graph.windows.net
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,microsoft-tst.com
+  - DOMAIN-SUFFIX,microsoftonline.cn
+  - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,office365.cn
+  - DOMAIN-SUFFIX,powershellgallery.com
+  - DOMAIN-SUFFIX,sfx.ms
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,msauth
+  - DOMAIN-KEYWORD,msft
+
+  # === 2. 苹果生态 ===
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,mzstatic
+  - DOMAIN-KEYWORD,cdn-apple
+  - DOMAIN-KEYWORD,itunes        # 覆盖 appstore、itunes 等
+
+  # === 3. 其他常用服务（保持原样） ===
+  - DOMAIN-SUFFIX,clash.razord.top
+  - DOMAIN-SUFFIX,example
+  - DOMAIN-SUFFIX,home
+  - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,invalid
+  - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,test
+  - DOMAIN-SUFFIX,ts.net
+  - DOMAIN-SUFFIX,yacd.haishan.me
+  - DOMAIN-SUFFIX,zaobao.com
+  - DOMAIN-SUFFIX,dapanyuntu.com
+  - DOMAIN-SUFFIX,we2114.com
+  - DOMAIN-SUFFIX,haoyun5.net
+  - DOMAIN-SUFFIX,gamer520.com
+  - DOMAIN-SUFFIX,bwh81.net  - "+.powershellgallery.com"
   - "+.sfx.ms"
   - "+.sharepoint.com"
   - "+.skype.com"
