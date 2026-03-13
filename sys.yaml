@@ -42,6 +42,7 @@ payload:
   - "+.windows.com"
   - "+.windows.net"
   - "+.windowsupdate.com"
+  - "+.services.bingapis.com"  
 
   # === 2. 苹果生态 ===
   - "+.aaplimg.com"
