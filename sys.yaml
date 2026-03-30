@@ -1,12 +1,11 @@
 payload:
-  - GEOSITE,apple-cn,DIRECT
-  - GEOSITE,microsoft-cn,DIRECT
-  - "+.clash.razord.top"
-  - "+.example"
+  - GEOSITE,private
+  - GEOSITE,apple-cn
+  - GEOSITE,microsoft-cn
+  - "+.clash.razord.top
   - "+.home"
   - "+.home.arpa"
   - "+.internal"
-  - "+.invalid"
   - "+.lan"
   - "+.local"
   - "+.localdomain"
@@ -14,7 +13,6 @@ payload:
   - "+.miwifi.com"
   - "+.plex.direct"
   - "+.tailscale.com"
-  - "+.test"
   - "+.ts.net"
   - "+.yacd.haishan.me"
   - "+.zaobao.com"
