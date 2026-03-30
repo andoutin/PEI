@@ -3,8 +3,7 @@ payload:
   - GEOSITE,youtube
   - GEOSITE,github
   - GEOSITE,wikipedia
-  - '+.xn--ngstr-lra8j.com' # 谷歌内部跳转
-  - '+.dns.google'
+
   - '+.firebaseio.com'      # 很多 App 的消息推送依赖此项
   - '+.googleapis-cn.com'   # 国内部分 App 调用的 API
   - '+.chrome.com'          # 浏览器同步
