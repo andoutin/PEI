@@ -1,4 +1,5 @@
 payload:
+  - GEOSITE,private
   # === 1. 微软全家桶 (已去重) ===
   - "+.1drv.ms"
   - "+.aadcdn.microsoftonline-p.com"
