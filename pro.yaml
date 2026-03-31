@@ -1,19 +1,60 @@
 payload:
-  - GEOSITE,google
-  - GEOSITE,youtube
-  - '+.googleapis.cn'
+  # === 1. Google 核心 ===
+  - "+.deepmind.com"
+  - '+.google.com'
   - '+.googleapis.com'
-  - '+.github.com'
-  - '+.githubassets.com'
-  - '+.githubusercontent.com'
-  - '+.wikipedia.org'
+  - '+.gstatic.com'
+  - '+.googleusercontent.com'
+  - '+.ggpht.com'           # 必加：头像、Play 商店图标
+  - '+.android.com'         # 安卓系统更新检测
+  - '+.googlezip.net'       # 谷歌浏览器流量节省/压缩
+  - '+.xn--ngstr-lra8j.com' # 谷歌内部跳转
+  - '+.dns.google'
+  - '+.googleadservices.com'
+  - "+.generativelanguage.googleapis.com"
+  - "+.proactive.google.com"
+  - "+.google"
+  - "+.goog"
+  - "+.1e100.net"
+  - "+.app-measurement.com"   
+
+  # === 2. Google Play ===
+  - "+.gvt0.com"             # 核心下载域名
+  - '+.gvt1.com'            
+  - '+.gvt2.com'           
+  - '+.gvt3.com'
+  - '+.googletagmanager.com' # 商店加载统计
+  - '+.google-analytics.com' # 商店加载统计
+
+  # === 3. YouTube ===
+  - '+.youtube.com'
+  - '+.googlevideo.com'     # 视频数据流（核心）
+  - '+.googlevideo.cn'      # 部分历史遗留的国内视频节点
+  - '+.ytimg.com'           # 视频预览图
+  - '+.youtu.be'            # 视频分享短链
+  - '+.yt.be'
+  - '+.youtubeeducation.com'
+  - '+.youtube-nocookie.com'
+  - '+.nhacanh247.com'      # 偶尔用于 YouTube 某些地区的内容分发
+
+  # === 4. 中国区优化 ===
+  - '+.google.cn'           # 翻译、地图主域名
+  - '+.google.com.cn'
+  - '+.googleapis.cn'       # 关键：国内 API 镜像
+  - '+.gstatic.cn'          # 国内静态资源镜像
+  - '+.recaptcha.net'       # 验证码，直连加载最快
+
+  # === 5. 后台推送与辅助工具 ===
   - '+.firebaseio.com'      # 很多 App 的消息推送依赖此项
   - '+.googleapis-cn.com'   # 国内部分 App 调用的 API
   - '+.chrome.com'          # 浏览器同步
   - '+.doubleclick.net'     # 广告/分析（部分 App 启动必备项）
   - '+.crashlytics.com'     # 崩溃报告
   - '+.vivaldi.com'
-  - '+.vivaldi.net' 
+  - '+.vivaldi.net'    
+  - '+.github.com'
+  - '+.githubassets.com'
+  - '+.githubusercontent.com'
   - '+.grok.com'
   - '+.nytimes.com'
   - '+.bbc.com'
@@ -22,6 +63,5 @@ payload:
   - '+.cnbeta.com.tw'
   - '+.cnbetacdn.com'  
   - '+.wwyy.org'
+  - '+.wikipedia.org'
   - '+.copilot.microsoft.com'
-  - '+.chatgpt.com'
-  - '+.openai.com'
