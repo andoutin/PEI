@@ -8,6 +8,7 @@ payload:
   - "+.azure.cn"
   - "+.azure.com"
   - "+.azureedge.net"
+  - "+.azurefd.net"
   - "+.bing.com"
   - "+.bing.net"
   - "+.chinacloudapi.cn"
@@ -69,11 +70,9 @@ payload:
 
   # === 3. 其他常用服务 ===
   - "+.clash.razord.top"
-  - "+.example"
   - "+.home"
   - "+.home.arpa"
   - "+.internal"
-  - "+.invalid"
   - "+.lan"
   - "+.local"
   - "+.localdomain"
@@ -81,7 +80,6 @@ payload:
   - "+.miwifi.com"
   - "+.plex.direct"
   - "+.tailscale.com"
-  - "+.test"
   - "+.ts.net"
   - "+.yacd.haishan.me"
   - "+.zaobao.com"
