@@ -24,6 +24,7 @@ payload:
   - "+.msauth.cn"
   - "+.msauth.net"
   - "+.msedge.net"
+  - "+.msft.net"
   - "+.msftauth.net"
   - "+.msftauthimages.net"
   - "+.msftconnecttest.com"
@@ -52,6 +53,7 @@ payload:
   - "+.apple-dns.net"
   - "+.apple-mapkit.cn"
   - "+.apple-mapkit.com"
+  - "+.apple-pay.com"
   - "+.apple.cn"
   - "+.apple.co"
   - "+.apple.com"
@@ -61,12 +63,15 @@ payload:
   - "+.cdn-apple.com"
   - "+.digicert.com"
   - "+.entrust.net"
+  - "+.globalsign.com"
   - "+.icloud-content.com"
   - "+.icloud.com"
   - "+.icloud.com.cn"
   - "+.itunes.com"
   - "+.me.com"
   - "+.mzstatic.com"
+  - "+.push.apple.com"
+  - "+.shazam.com"
 
   # === 3. 常用 ===
   - GEOSITE,private
