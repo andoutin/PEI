@@ -13,6 +13,7 @@ payload:
   - '+.vivaldi.com'
   - '+.vivaldi.net' 
   - '+.grok.com'
+  - '+.duckduckgo.com'
   - '+.nytimes.com'
   - '+.bbc.com'
   - '+.rfi.fr'
@@ -21,3 +22,5 @@ payload:
   - '+.cnbetacdn.com'  
   - '+.wwyy.org'
   - '+.copilot.microsoft.com'
+  - '+.chatgpt.com'
+  - '+.openai.com'
