@@ -6,6 +6,7 @@ payload:
       - '+.deepmind.com'
       - '+.dns.google'
       - '+.generativelanguage.googleapis.com'
+      - 'gemini.google.com'
       - '+.google'
       - '+.google.com'
       - '+.googleadservices.com'
@@ -26,42 +27,17 @@ payload:
       - '+.gvt2.com'
       - '+.gvt3.com'
 
-      # === 3. YouTube ===
-      - '+.googlevideo.cn'
-      - '+.googlevideo.com'
-      - '+.nhacanh247.com'
-      - '+.yt.be'
-      - '+.ytimg.com'
-      - '+.youtu.be'
-      - '+.youtube-nocookie.com'
-      - '+.youtube.com'
-      - '+.youtubeeducation.com'
-
-      # === 4. 中国区优化 ===
+      # === 3. 中国区优化 ===
       - '+.google.cn'
       - '+.google.com.cn'
       - '+.googleapis.cn'
       - '+.gstatic.cn'
       - '+.recaptcha.net'
 
-      # === 5. 后台推送与辅助工具 ===
-      - '+.bbc.com'
+      # === 4. 后台推送与辅助工具 ===
       - '+.chrome.com'
-      - '+.cnbeta.com.tw'
-      - '+.cnbetacdn.com'
       - '+.copilot.microsoft.com'
-      - '+.crashlytics.com'
-      - '+.doubleclick.net'
-      - '+.dw.com'
-      - '+.firebaseio.com'
-      - '+.github.com'
-      - '+.githubassets.com'
-      - '+.githubusercontent.com'
-      - '+.googleapis-cn.com'
       - '+.grok.com'
-      - '+.nytimes.com'
-      - '+.rfi.fr'
       - '+.vivaldi.com'
       - '+.vivaldi.net'
-      - '+.wikipedia.org'
       - '+.wwyy.org'
