@@ -34,10 +34,12 @@ payload:
       - '+.gstatic.cn'
       - '+.recaptcha.net'
 
-      # === 4. 后台推送与辅助工具 ===
+      # === 4. 其他 ===
       - '+.chrome.com'
       - '+.copilot.microsoft.com'
       - '+.grok.com'
       - '+.vivaldi.com'
       - '+.vivaldi.net'
       - '+.wwyy.org'
+      - '+.claude.ai'
+      - '+.chatgpt.com'
