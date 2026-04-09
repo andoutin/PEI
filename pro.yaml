@@ -6,7 +6,6 @@ payload:
       - '+.deepmind.com'
       - '+.dns.google'
       - '+.generativelanguage.googleapis.com'
-      - 'gemini.google.com'
       - '+.google'
       - '+.google.com'
       - '+.googleadservices.com'
