@@ -1,4 +1,5 @@
 payload:
+      - '+.google.com'
       - 'copilot.microsoft.com'
       - '+.googleapis.cn'
       - '+.chrome.com'
