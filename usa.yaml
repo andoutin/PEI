@@ -1,5 +1,6 @@
 payload:
-      - 'gemini.google.com'
+      - '+.gemini.google.com'
+      - '+.gemini.gstatic.com'
       - 'copilot.microsoft.com'
       - '+.googleapis.cn'
       - '+.chrome.com'
