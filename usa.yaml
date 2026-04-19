@@ -3,6 +3,7 @@ payload:
       - '+.gemini.gstatic.com'
       - '+.copilot.microsoft.com'
       - '+.googleapis.cn'
+      - '+.vivaldi.com'
       - '+.chrome.com'
       - '+.wwyy.org'
       - '+.rfi.fr'
