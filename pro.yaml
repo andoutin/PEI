@@ -1,7 +1,23 @@
 payload:
-# === 1. Google 核心 ===
-      - 'GEOSITE,google'
-
+      # === 1. Google 核心 ===
+      - '+.1e100.net'
+      - '+.android.com'
+      - '+.app-measurement.com'
+      - '+.deepmind.com'
+      - '+.dns.google'
+      - '+.generativelanguage.googleapis.com'
+      - '+.google'
+      - '+.google.com'
+      - '+.googleadservices.com'
+      - '+.googleapis.com'
+      - '+.googleusercontent.com'
+      - '+.goog'
+      - '+.googlezip.net'
+      - '+.gstatic.com'
+      - '+.ggpht.com'
+      - '+.proactive.google.com'
+      - '+.xn--ngstr-lra8j.com'
+      
       # === 2. Google Play ===
       - '+.google-analytics.com'
       - '+.googletagmanager.com'
@@ -10,14 +26,31 @@ payload:
       - '+.gvt2.com'
       - '+.gvt3.com'
 
-      # === 3. 中国区优化 ===
+      # === 3. 中国区优化&其他高频服务 ===
       - '+.google.cn'
       - '+.google.com.cn'
       - '+.googleapis.cn'
       - '+.gstatic.cn'
       - '+.recaptcha.net'
+      - '+.googlemail.com'       
+      - '+.firebaseio.com'       
+      - '+.blogger.com'
+      - '+.google.dev'
 
-      # === 4. 其他 ===
+      # ===4. YouTube 视频流 ===
+      - '+.youtube.com'
+      - '+.youtu.be'
+      - '+.ytimg.com'          
+      - '+.googlevideo.com'  
+      - '+.googlemail.com'  
+      - '+.firebaseio.com'       
+      - '+.blogger.com'
+      - '+.google.dev'
+
+      # === 5. 其他 ===
+      - '+.hcaptcha.com'          
+      - '+.cloudflare.com'
+      - '+.cdn.cloudflare.net'
       - '+.chrome.com'
       - '+.copilot.microsoft.com'
       - '+.grok.com'
