@@ -1,5 +1,6 @@
 payload:
 # === 1. Google 核心 ===
+      - 'GEOSITE,google'
       - '+.1e100.net'
       - '+.android.com'
       - '+.app-measurement.com'
