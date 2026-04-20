@@ -1,23 +1,6 @@
 payload:
 # === 1. Google 核心 ===
       - 'GEOSITE,google'
-      - '+.1e100.net'
-      - '+.android.com'
-      - '+.app-measurement.com'
-      - '+.deepmind.com'
-      - '+.dns.google'
-      - '+.generativelanguage.googleapis.com'
-      - '+.google'
-      - '+.google.com'
-      - '+.googleadservices.com'
-      - '+.googleapis.com'
-      - '+.googleusercontent.com'
-      - '+.goog'
-      - '+.googlezip.net'
-      - '+.gstatic.com'
-      - '+.ggpht.com'
-      - '+.proactive.google.com'
-      - '+.xn--ngstr-lra8j.com'
 
       # === 2. Google Play ===
       - '+.google-analytics.com'
