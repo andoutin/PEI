@@ -1,9 +1,19 @@
 payload:
+      # === 1. Google服务 ===
       - '+.google.com'
+      - '+.gstatic.com'
       - '+.gemini.google.com'
       - '+.googleapis.cn'
+      - '+.googleusercontent.com'
+      - '+.google-analytics.com'
+      
+       # === 2. 其他服务 ===
       - '+.copilot.microsoft.com'
       - '+.vivaldi.com'
       - '+.chrome.com'
       - '+.wwyy.org'
       - '+.rfi.fr'
+      - '+.grok.com'
+      - '+.claude.ai'
+      - '+.oaistatic.com'
+      - '+.chatgpt.com'
