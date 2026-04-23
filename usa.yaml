@@ -1,4 +1,7 @@
 payload:
+      - '+.google.com'
+      - '+.gemini.google.com'
+      - '+.googleapis.cn'
       - '+.copilot.microsoft.com'
       - '+.vivaldi.com'
       - '+.chrome.com'
