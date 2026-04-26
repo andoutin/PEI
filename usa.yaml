@@ -15,6 +15,7 @@ payload:
       - '+.rfi.fr'
       - '+.grok.com'
       - '+.claude.ai'
+      - '+.anthropic.com'
       - '+.oaistatic.com'
       - '+.chatgpt.com'
       - '+.duckduckgo.com'
