@@ -8,6 +8,7 @@ payload:
       - '+.google-analytics.com'
       
        # === 2. 其他服务 ===
+      - 'geosite:disney'
       - '+.copilot.microsoft.com'
       - '+.vivaldi.com'
       - '+.chrome.com'
