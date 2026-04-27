@@ -23,7 +23,6 @@ payload:
   - '+.execute-api.us-east-1.amazonaws.com'
   - '+.js-agent.newrelic.com'
   - '+.starplus.com'
-  - '+.thewaltdisneycompany.com'
 
   # === 3. AI 与 其他服务 ===
   - '+.anthropic.com'
@@ -35,6 +34,7 @@ payload:
   - '+.grok.com'
   - '+.intercomcdn.com'
   - '+.oaistatic.com'
+  - '+.openai.com'  
   - '+.rfi.fr'
   - '+.vivaldi.com'
   - '+.wwyy.org'
