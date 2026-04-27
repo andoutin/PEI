@@ -33,7 +33,9 @@ payload:
   - '+.copilot.microsoft.com'
   - '+.duckduckgo.com'
   - '+.grok.com'
+ - '+.intercomcdn.com'
   - '+.oaistatic.com'
   - '+.rfi.fr'
   - '+.vivaldi.com'
   - '+.wwyy.org'
+  
