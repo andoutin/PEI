@@ -8,23 +8,9 @@ payload:
   - '+.googleusercontent.com'
   - '+.google-analytics.com'
 
-  # === 2. 迪士尼服务 ===
+  # === 2. 其他服务 ===
   - '+.bamgrid.com'
-  - '+.disney.api.edge.bamgrid.com'
-  - '+.disney.connections.com'
   - '+.disney.com'
-  - '+.disney.io'
-  - '+.disneyplus.com'
-  - '+.disney-plus.net'
-  - '+.disneystreaming.com'
-  - '+.disneymusic.com'
-  - '+.disneytv.jp'
-  - '+.dssott.com'
-  - '+.execute-api.us-east-1.amazonaws.com'
-  - '+.js-agent.newrelic.com'
-  - '+.starplus.com'
-
-  # === 3. AI 与 其他服务 ===
   - '+.anthropic.com'
   - '+.chatgpt.com'
   - '+.chrome.com'
