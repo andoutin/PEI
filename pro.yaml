@@ -1,4 +1,4 @@
-payload:
+3payload:
       # === 1. Google 核心 ===
       - '+.google.com'
       - '+.1e100.net'
@@ -46,9 +46,7 @@ payload:
       - '+.google.dev'
 
       # === 4. 其他 ===
-      - '+.hcaptcha.com'          
-      - '+.cloudflare.com'
-      - '+.cdn.cloudflare.net'
+      - '+.hcaptcha.com'
       - '+.chrome.com'
       - '+.copilot.microsoft.com'
       - '+.grok.com'
