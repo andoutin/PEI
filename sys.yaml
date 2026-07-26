@@ -189,6 +189,7 @@ payload:
   - '+.store.storeimages.cdn-apple.com'
   - '+.support-china.apple-support.akadns.net'
   - '+.support.apple.com'
+  - '+.configuration.ls.apple.com'
   - '+.swallow-apple-com.v.aaplimg.com'
   - '+.swallow.apple.com'
   - '+.swcatalog-cdn.apple.com.akadns.net'
