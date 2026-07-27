@@ -291,12 +291,9 @@ payload:
   - '+.leike.cc'
   - '+.arubanetworks.com'
   - '+.asusrouter.com'
-  - 'router.asus.com'
-  - 'www.asusrouter.com'
   - 'oasisauth.h3c.com'
   - '+.routerlogin.com'
   - 'tplogin.cn'
-  - '+.miwifi.com'
   - 'local.adguard.org'
 
   # === 4. 常用域名 ===
