@@ -20,6 +20,7 @@ payload:
   - "+.microsoft.com"
   - "+.microsoftonline.cn"
   - "+.microsoftonline.com"
+  - "+.microsoft"
   - "+.msauth.cn"
   - "+.msauth.net"
   - "+.msedge.net"
