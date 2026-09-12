@@ -1,40 +1,39 @@
 payload:
   # === 1. 微软全家桶 ===
-  - "+.1drv.ms"
-  - "+.aadcdn.microsoftonline-p.com"
-  - "+.aka.ms"
-  - "+.aspnetcdn.com"
-  - "+.azure.cn"
-  - "+.azure.com"
-  - "+.azureedge.net"
-  - "+.azurefd.net"
-  - "+.bing.com"
-  - "+.bing.net"
-  - "+.chinacloudapi.cn"
-  - "+.gfx.ms"
-  - "+.graph.microsoft.us"
-  - "+.graph.windows.net"
-  - "+.live.com"
-  - "+.live.net"
-  - "+.microsoft-tst.com"
-  - "+.microsoft.com"
-  - "+.microsoftonline.cn"
-  - "+.microsoftonline.com"
-  - "+.microsoft"
-  - "+.msauth.cn"
-  - "+.msauth.net"
-  - "+.msedge.net"
-  - "+.msft.net"
-  - "+.msftauth.net"
-  - "+.msftauthimages.net"
-  - "+.msftconnecttest.com"
-  - "+.msftncsi.com"
-  - "+.msn.cn"
-  - "+.msn.com"
-  - "+.office.com"
-  - "+.office.net"
-  - "+.office365.cn"
-  - "+.office365.com"
+  - +.1drv.ms
+  - +.aadcdn.microsoftonline-p.com
+  - +.aka.ms
+  - +.aspnetcdn.com
+  - +.azure.cn
+  - +.azure.com
+  - +.azureedge.net
+  - +.azurefd.net
+  - +.bing.com
+  - +.bing.net
+  - +.chinacloudapi.cn
+  - +.gfx.ms
+  - +.graph.microsoft.us
+  - +.graph.windows.net
+  - +.live.com
+  - +.live.net
+  - +.microsoft-tst.com
+  - +.microsoft.com
+  - +.microsoftonline.cn
+  - +.microsoftonline.com
+  - +.microsoft
+  - +.msauth.cn
+  - +.msauth.net
+  - +.msedge.net
+  - +.msft.net
+  - +.msftauth.net
+  - +.msftauthimages.net
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - +.msn.cn
+  - +.msn.com
+  - +.office.com
+  - +.office.net
+  - +.office365.cn  - "+.office365.com"
   - "+.onedrive.com"
   - "+.outlook.com"
   - "+.powershellgallery.com"
