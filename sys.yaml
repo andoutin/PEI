@@ -1,5 +1,5 @@
 payload:
-  # === 1. 微软全家桶 ===
+   === 1. 微软全家桶 ===
   - +.1drv.ms
   - +.aadcdn.microsoftonline-p.com
   - +.aka.ms
@@ -47,7 +47,7 @@ payload:
   - +.windowsupdate.com
   - +.services.bingapis.com
 
-  # === 2. 苹果 ===
+   === 2. 苹果 ===
   - +.aaplimg.com
   - +.apple
   - +.apple-dns.net
@@ -73,7 +73,7 @@ payload:
   - +.push.apple.com
   - +.shazam.com
 
-  # === 3. Private ===
+   === 3. Private ===
   - +.internal
   - +.localdomain
   - +.example
@@ -101,7 +101,7 @@ payload:
   - tplogin.cn
   - local.adguard.org
 
-  # === 4. 常用域名 ===
+   === 4. 常用域名 ===
   - +.zaobao.com
   - +.dapanyuntu.com
   - +.we2114.com
