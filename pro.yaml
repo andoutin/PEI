@@ -1,7 +1,5 @@
 payload:
   # === 1. Google 服务 ===
-  - +.google.com
-  - +.google.com.hk
   - +.gstatic.com
   - +.gemini.google.com
   - +.googleapis.cn
